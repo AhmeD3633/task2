@@ -20,7 +20,7 @@ const SecondSection = () => {
   }, []);
 
   return (
-    <div>
+    <div className="pt-3 ">
       <Card products={products} />
     </div>
   );
