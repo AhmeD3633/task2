@@ -19,7 +19,7 @@ const Card = ({ products }) => {
                   <Button title={"Description"}/>
                 </div>
                 <div className="collapse-content">
-                  <p className="text-gray-500 leading-tight">{product.description}</p>
+                  <p className="text-gray-500 leading-tight line-clamp-4">{product.description}</p>
                 </div>
               </div>
             </p>
